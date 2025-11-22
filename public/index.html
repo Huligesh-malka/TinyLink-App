@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinyLink - Modern URL Shortener</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner container">
+    <div class="logo">TinyLink</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#resources">Resources</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero container">
+  <div class="hero-text">
+    <h1>Shorten & Share Links Instantly</h1>
+    <p>Create tiny, branded links and track clicks effortlessly.</p>
+  </div>
+  <form class="shorten-form" id="link-form">
+    <input type="url" id="original_url" placeholder="Enter Long URL (https://...)" required>
+    <input type="text" id="custom_code" placeholder="Optional custom code (6-8 alphanumeric)">
+    <button type="submit">Shorten</button>
+  </form>
+</section>
+
+<!-- Recent Links Section -->
+<section class="recent-links container">
+  <h2>Your Recent Links</h2>
+  <div id="recent-links-cards" class="links-list">
+    <!-- Links injected by JS -->
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="features container" id="features">
+  <h2>Why TinyLink?</h2>
+  <div class="feature-cards">
+    <div class="card glass">
+      <i class="fas fa-bolt fa-2x"></i>
+      <h3>Fast</h3>
+      <p>Shorten links in milliseconds and share instantly.</p>
+    </div>
+    <div class="card glass">
+      <i class="fas fa-lock fa-2x"></i>
+      <h3>Secure</h3>
+      <p>All links are protected with SSL encryption for safety.</p>
+    </div>
+    <div class="card glass">
+      <i class="fas fa-chart-line fa-2x"></i>
+      <h3>Analytics</h3>
+      <p>Track clicks, locations, and devices for insights.</p>
+    </div>
+    <div class="card glass">
+      <i class="fas fa-share-alt fa-2x"></i>
+      <h3>Easy Sharing</h3>
+      <p>Share links seamlessly via social media or email.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Resources Section -->
+<section class="resources container" id="resources">
+  <h2>Resources</h2>
+  <div class="resource-cards">
+    <div class="card glass">
+      <i class="fas fa-book fa-2x"></i>
+      <h3>Blog</h3>
+      <p>Learn tips and tricks for better link management.</p>
+    </div>
+    <div class="card glass">
+      <i class="fas fa-cogs fa-2x"></i>
+      <h3>API Docs</h3>
+      <p>Integrate TinyLink API with your apps easily.</p>
+    </div>
+    <div class="card glass">
+      <i class="fas fa-question-circle fa-2x"></i>
+      <h3>FAQs</h3>
+      <p>Find answers to the most common questions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-inner container">
+    <p>&copy; 2025 TinyLink. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms of Service</a> |
+      <a href="#">Cookie Policy</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
